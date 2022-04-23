@@ -1,0 +1,14 @@
+{
+    "BAD_REQUEST": "Ups, etwas ist schiefgelaufen",
+    "INVALID_USER": "Benutzer und/oder Passwort sind falsch",
+    "USER_ACCOUNT_INACTIVE": "Ihre Zugang ist deaktiviert, bitte kontaktieren Sie den Administrator.",
+    "FORGOT_PASSWORD_REQ_COMPLETE": "Eine Email zum Zurücksetzen Ihres Passwortes wurde versendet.",
+    "RESET_PASSWORD_REQ_SUCCESS": "Das Passwort wurde erfolgreich geändert.",
+    "RESET_PASSWORD_REQ_FAILED": "Der Link zum Zurücksetzen Ihres Passwortes ist abgelaufen.",
+    "EMPTY_LOCATION_DATA": "Keine Standorten gefunden.",
+    "EMPTY_DEVICE_DATA": "Keine Eingabegeräte gefunden.",
+    "USER_SETTINGS_UPD_SUCCESS": "Die Benutzereinstellungen wurden erfolgreich gespeichert.",
+    "EMPTY_PRODUCT_DATA": "Es wurden keine Daten gefunden.",
+    "STEP_UPDATE_SUCCESS": "Die Datenspeicherung war erfolgreich.",
+    "STEP_ALREADY_FINISHED": "Der Arbeitsschritt ist bereits vollständig beendet. Die Daten wurden nicht aktualisiert."
+}

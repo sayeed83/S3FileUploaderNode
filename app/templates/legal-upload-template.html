@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <style>
+            body{
+               font-size: 18px;
+               padding-left: 5%;
+                padding-right: 5%;
+                line-height: 1.5;
+            }
+            .flex-div {
+               display: flex;
+            }
+            .txt-center {
+               text-align: center;
+            }
+            .number-div {
+                width: 5%; 
+                display: table-cell;
+            }
+            .text-div {
+                display: table-cell;
+            }
+            .table-div-1 {
+                width: 100%; display: table;
+            }
+            .table-div-row-1 {
+                display: table-row;
+            }
+            .div-10 {
+               width: 10%;
+            }
+            .div-100 {
+               width: 100%;
+            }
+            .div-90 {
+                width: 90%;
+                float: right;
+            }
+            .address-div {
+               width: 50%;
+            }
+            .l-div {
+               float: left;
+            }
+            .u-text {
+                font-weight: bold !important;
+                text-decoration: underline;
+            }
+           
+       </style>
+   </head>
+   <body>
+        <div id='pageHeader'>
+            <div style="width: 100%; display: table;">
+                <div style="display: table-row; height: 100px;">
+                    <div style="width: 50%; display: table-cell;">
+                        <img src='https://acennaassets.s3.ap-south-1.amazonaws.com/test.png' width='100px' height='100px' /> 
+                    </div>
+                    <div style="display: table-cell; float: right;"> 
+                        <img src='https://acennaassets.s3.ap-south-1.amazonaws.com/test1.png' width='200px' height='100px' />
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bod-div">
+            <div>
+                <h2 class="txt-center">LEGAL NOTICE</h2>
+            </div>
+
+            <div>
+                <span><b>Ref no:</b> #2110468392865397</span>
+            </div>
+            <div>
+                <span><b>Date:</b> 2nd Nov, 2020</span>
+            </div>
+            <br>
+
+            <div>
+                <b>To,</b>
+            </div>
+            <div class="address-div">
+                <span class="address-span">
+                    {{loaneeName}} {{loaneeAddress}}
+                </span>
+            </div>
+            <br>
+
+            <di>
+                Dear Sir,
+            </di>
+            <br>
+            <div>
+                I, for and on behalf of our client namely, M/S SI-CREVA CAPITAL SERVICES PRIVATE LIMITED, 10/A/2, New Sion Chs, Swami Vallabhdas Marg, Road No. 24, Sindhi Colony, Sion, Mumbai, 400022 (“Client”) give notice to you as under: -
+            </div>
+            <br>
+            <div class="">
+                <div class="div-10">
+                </div>
+                <div class="div-90">
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">1.</div>
+                            <div class="text-div">
+                                That Our “Client” is Financial Technology Solution Company bearing registration number 282573, given by Registrar of Companies, Mumbai, that provides a technology platform to enable use of instant EMI or instalment solution by consumers for purchase of goods such as electronics, furniture, services etc. through its application called Kissht. It is engaged in the business of online merchant acquisition and financing of consumer loans for purchase of goods and services from digital channels such as online and mobile. The Financing is facilitated by Kissht through its Non-Banking Financial Partners and tie ups with other Financial Institutions and banks.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">2.</div>
+                            <div class="text-div">
+                                That you {{loaneeName}} residing at {{loaneeAddress}} are a customer of my client.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">3.</div>
+                            <div class="text-div">
+                                ThatyouVENKA TESHVEMULArequestedtoourclientforprovidingLoanRs.{{amount}} {vide agreement dated 4th Nov 2019 (Memorandum of Understanding)} requested for loan (Loan ID {{loanId}}) and represented, assured and acknowledged via email of the mandate and payment Amount for providing such Financial Assistance and accordingly loan was given to you from my client.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">4.</div>
+                            <div class="text-div">
+                                Our client understands that the COVID times are difficult for individual & hence our client Kissht offered moratorium to its customers during COVID times as per RBI guidelines.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">5.</div>
+                            <div class="text-div">
+                                That on 1/27/2020 Your last payment was received & RBI announced moratorium on 1st Mar 2020 and sufficient time was allotted to you for payment of outstanding loan EMI amount but still we have not received any payment from your end. Kindly note that your outstanding loan amount pending as on date is 9696.5. We have tried to reach out multiple times through calls, SMS and in person visit but in vain.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">6.</div>
+                            <div class="text-div">
+                                That you are liable to pay Loan amount of Rs 9696.5 (Rupees Nine Thousand Six Hundred NinetySix Paise Fifty Only) to our client so our client.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">7.</div>
+                            <div class="text-div">
+                                Our client has decided to give you final chance by offering you one – time settlement of Rs {{amount}} by waiving 100% of your dues. The offer is valid till 16th Nov 2020 you can pay using Kissht app or through link which was sent to you on your phone or you may also call our representative number mentioned at end of this notice for any assistance regarding payment. Also note that repayment will also make you eligible for further loans with Kissht which is currently blocked by system due to non – payment of loan amount from your end.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">8.</div>
+                            <div class="text-div">
+                                That you {{loaneeName}} have failed in making such payment despite of request & various correspondences which are on record of our client.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+        
+                    <div class="table-div-1">
+                        <div class="table-div-1">
+                            <div class="number-div">9.</div>
+                            <div class="text-div">
+                                Failure of you my client says, to comply with the requisitions so made in the
+                                preceding paragraphs of this notice shall render my client with no option that to take
+                                & initiate suitable legal actions entirely at your own risk cost & consequences. That looking at the above circumstances, our client may file criminal complaint against you under 
+                                <span class="u-text">Sections U/S 420 for cheating and dishonestly inducing delivery of services; U/S 415 Cheating; U/S 506 Punishment for Criminal Intimidation and other Sections under Indian Penal Code, 1860 </span>
+                                in case of your failure to make payments. Accordingly, you are hereby called upon to pay to our client the amount of Rs {{amount}} for Invoice raised against you for loan amount which has been provided to you within 15 days of receipt of this notice.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="l-div">
+                <div class="">
+                    You are also called upon to pay a sum of Rs.5,000/ against the cost of this legal notice. In the event of any failure and/ or neglect to comply with the requirement of this notice, our clients shall be constrained to initiate necessary legal proceedings against you at your own risks and responsibility as to cost and consequences of it.
+                </div>
+                <br><br>
+                <div class="">
+                    In case you want to make payment of your outstanding loan amount you can contact: <br>Name: Mohammed abdul kaleem<br>Contact number: 7075081556
+                </div>
+                <br>
+                <div>
+                    Sd/-
+                </div>
+                <br>
+                <div class="">
+                    <img src='https://acennaassets.s3.ap-south-1.amazonaws.com/signature.png' width='100px' height='100px' /> 
+                </div>
+                <br>
+                <div>
+                    ADV. VINAYAK GHADGE
+                </div>
+            </div>
+        </div>
+   </body>
+</html>

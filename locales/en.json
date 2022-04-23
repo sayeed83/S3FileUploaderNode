@@ -1,0 +1,14 @@
+{
+    "BAD_REQUEST": "Ups, something went wrong.",
+    "INVALID_USER": "Invalid username or password.",
+    "USER_ACCOUNT_INACTIVE": "Your account is inactive, please contact your administrator.",
+    "FORGOT_PASSWORD_REQ_COMPLETE": "Please check your email. We have sent you an email to reset your password.",
+    "RESET_PASSWORD_REQ_SUCCESS": "Password reset was successfully.",
+    "RESET_PASSWORD_REQ_FAILED": "The link to reset your password has been expired",
+    "EMPTY_LOCATION_DATA": "No location data found.",
+    "EMPTY_DEVICE_DATA": "No device data found.",
+    "USER_SETTINGS_UPD_SUCCESS": "Your User settings were updated successfully.",
+    "EMPTY_PRODUCT_DATA": "No data found.",
+    "STEP_UPDATE_SUCCESS": "Data was saved successfully.",
+    "STEP_ALREADY_FINISHED": "Step is already fully finished, no data was updated."
+}

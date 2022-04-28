@@ -1,5 +1,4 @@
 var AWS = require('aws-sdk');
-const { v4: uuidv4 } = require('uuid');
 exports.presigneUrl = async (req, res) => {
     console.log(" req.params.fileName ", req.params.fileName);
     AWS.config.update({ 
